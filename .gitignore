@@ -1,0 +1,57 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+.colcon/
+.colcon_install_layout
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# C / C++
+*.o
+*.a
+*.so
+*.so.*
+*.out
+
+# IDEs
+.idea/
+.vscode/
+.nvim/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FreeCAD backups
+*.FCStd1
+*.FCStd2
+*.FCBak
+*.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large datasets and experimental captures
+data/raw/
+data/recordings/
+*.bag
+*.mcap
